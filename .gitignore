@@ -1,5 +1,8 @@
 #.gitignore es un archivo secreto. 
 #Todo lo que pongamos aquí no se guarda en ningun lugar. 
 
-#/node_modules/ es una libreria enorme de node (mongoose).
+#/node_modules/ es una libreria enorme de node (librerias npm).
 /node_modules/
+
+#.env es un archivo donde definimos la DB creada en Node Atlas. 
+.env
