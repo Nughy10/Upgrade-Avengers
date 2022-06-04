@@ -12,15 +12,15 @@ let moviesSchema = new Schema({
     name: {
         type: 'string',
     },
-    description: {
-        type: 'string'
-    },
-    duration: {
-        type: 'number'
-    },
-    date: {
-        type: 'string'
-    }
+    // description: {
+    //     type: 'string'
+    // },
+    // duration: {
+    //     type: 'number'
+    // },
+    // date: {
+    //     type: 'string'
+    // }
 }, {
     //Sirve para guardar la hora y la fecha en cada actualización.
     timestamps:true
