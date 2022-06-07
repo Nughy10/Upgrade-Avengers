@@ -20,7 +20,7 @@ router.post("/movies", (req, res, next) => {
     duration: req.body.duration,
     date: req.body.date,
   });
-
+  console.log(req.body);
   //Definimos una función asíncrona que guarda la variable objeto anterior en la base de datos.
   //Convertidor a formato .json, mensaje de validación y resultado de la creación (del POST).
   movie.save().then((response) => {
@@ -99,5 +99,5 @@ router.delete("/movies", (req, res, next) => {
     });
 })
 
-//Exportamos la función router que hemos creado para poder llamarla desde el index.js
+//Exportamos la función router que hemos creado para poder llamarla desde el index.js.
 module.exports = router;
